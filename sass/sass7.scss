@@ -1,0 +1,63 @@
+$mycolors: (
+    sec:white,
+    info:grey,
+    danger:red,
+    warning:yellow,
+    tango:blue,
+    mayday:orange,
+    roman:purple,
+    yeti:skyblue,
+    aqua:seagreen,
+    simba:burlywood
+
+
+
+);
+@function ok($key){
+    @return map-get($mycolors, $key );
+}
+@media (max-width: 768px){
+    .wrapper{
+        display: none;
+    }
+    .container img{
+        display: none;
+        text-size-adjust: 40px;
+    }
+    .row{
+        display: block!important;
+        width: 50vh!important;
+        position: relative;
+    }
+}
+    
+.wrapper{
+    background-color:ok(sec);
+    margin: 0 -8rem;
+    padding: 0.25rem 2rem;
+    .luffy{
+        background-color: ok(sec);
+        margin: 0 -8rem;
+        padding: 0.25rem 2rem;
+        
+    }
+    .footer{
+        background-color: ok(simba);
+        margin: 0 -8rem;
+        padding: 0.25rem 2rem;
+        
+    }
+   .ghost{
+    padding-left: 750px;
+   }
+   .container1{
+    background-color: ok(simba);
+   }
+   
+   
+}
+
+   
+        
+    
+

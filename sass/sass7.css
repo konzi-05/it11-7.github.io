@@ -1,0 +1,44 @@
+@media (max-width: 768px) {
+  .wrapper {
+    display: none;
+  }
+  .container img {
+    display: none;
+    -webkit-text-size-adjust: 40px;
+       -moz-text-size-adjust: 40px;
+        -ms-text-size-adjust: 40px;
+            text-size-adjust: 40px;
+  }
+  .row {
+    display: block !important;
+    width: 50vh !important;
+    position: relative;
+  }
+}
+
+.wrapper {
+  background-color: white;
+  margin: 0 -8rem;
+  padding: 0.25rem 2rem;
+}
+
+.wrapper .luffy {
+  background-color: white;
+  margin: 0 -8rem;
+  padding: 0.25rem 2rem;
+}
+
+.wrapper .footer {
+  background-color: burlywood;
+  margin: 0 -8rem;
+  padding: 0.25rem 2rem;
+}
+
+.wrapper .ghost {
+  padding-left: 750px;
+}
+
+.wrapper .container1 {
+  background-color: burlywood;
+}
+/*# sourceMappingURL=sass7.css.map */
